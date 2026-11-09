@@ -30,4 +30,13 @@ My repos:https://github.com/k1rpit?tab=repositories
 * **input delay scan port>** —  вводим максимальная огранечения у сканера (больше 3 не советую)
 * **input timeout>** — вводим время котрой сканер будет ждать на ответ порта (советую не больше 1 не меньше 0.2)
 * **name file .json>** —  вводим имя файла понстю напрмер "top_100_ports.json" из деректории json-data-ports/
-* 
+>**важно**:запускать файл только из орегинальной деректории ,а также толтко файла run.py
+
+---
+
+## Guide
+* **input IP>** — enter either an IP address (example: 1.1.1.1) or a domain.
+* **input delay scan port>** — enter the maximum delay limit for the scanner (values above 3 are not recommended).
+* **input timeout>** — enter the time the scanner will wait for a port response (recommended between 0.2 and 1.0).
+* **name file .json>** — enter the full file name, for example "top_100_ports.json", from the json-data-ports/ directory.
+>**Important**: The script must be executed strictly from the root directory, and only by running the run.py file without modifying any internal code.
