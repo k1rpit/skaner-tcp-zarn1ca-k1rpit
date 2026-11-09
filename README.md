@@ -43,6 +43,7 @@ My repos:https://github.com/k1rpit?tab=repositories
 
 # О проекте / About the project
 
+```text
 skaner-tcp-zarn1ca-k1rpit/
 ├── json-data-ports/
 │   ├── alt_ports.json
@@ -64,4 +65,5 @@ skaner-tcp-zarn1ca-k1rpit/
 │   └── web_banner_scanning.py
 ├── run.py
 └── README.md
+```
 
