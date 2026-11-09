@@ -1,0 +1,8 @@
+{
+  "2121": "FTP",
+  "2222": "SSH",
+  "2323": "Telnet",
+  "993": "IMAPS",
+  "995": "POP3S",
+  "8080": "HTTP-Proxy / Alt Web"
+}

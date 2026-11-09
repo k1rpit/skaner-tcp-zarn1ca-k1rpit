@@ -1,0 +1,13 @@
+{
+  "22": "SSH",
+  "111": "RPCBIND",
+  "873": "Rsync",
+  "2049": "NFS",
+  "2375": "Docker-API",
+  "5901": "VNC",
+  "6000": "X11",
+  "9090": "Cockpit",
+  "9100": "Node-Exporter",
+  "10050": "Zabbix-Agent"
+}
+

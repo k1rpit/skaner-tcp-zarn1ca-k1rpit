@@ -1,0 +1,9 @@
+{
+  "80": "HTTP",
+  "443": "HTTPS",
+  "8000": "HTTP-Alt (Django/Dev)",
+  "8080": "HTTP-Proxy / Apache Tomcat",
+  "8443": "HTTPS-Alt",
+  "8888": "HTTP-Alt (Jupyter/Dev)",
+  "9000": "PHP-FPM / SonarQube"
+}
