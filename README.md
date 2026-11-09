@@ -40,3 +40,28 @@ My repos:https://github.com/k1rpit?tab=repositories
 * **input timeout>** — enter the time the scanner will wait for a port response (recommended between 0.2 and 1.0).
 * **name file .json>** — enter the full file name, for example "top_100_ports.json", from the json-data-ports/ directory.
 >**Important**: The script must be executed strictly from the root directory, and only by running the run.py file without modifying any internal code.
+
+# О проекте / About the project
+
+skaner-tcp-zarn1ca-k1rpit/
+├── json-data-ports/
+│   ├── alt_ports.json
+│   ├── linux_ports.json
+│   ├── remote_access_ports.json
+│   ├── top_10_ports.json
+│   ├── top_50_ports.json
+│   ├── top_100_ports.json
+│   ├── trojan_ports.json
+│   ├── web_ports.json
+│   └── win_ports.json
+├── scan_conn/
+│   ├── __init__.py
+│   ├── regular_scanning.py
+│   └── silent_scanning.py
+├── conn_banner/
+│   ├── __init__.py
+│   ├── regular_banner_scraping.py
+│   └── web_banner_scanning.py
+├── run.py
+└── README.md
+
