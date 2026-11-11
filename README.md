@@ -58,7 +58,7 @@ skaner-tcp-zarn1ca-k1rpit/
 ├── scan_conn/
 │   ├── __init__.py
 │   ├── regular_scanning.py
-│   └── silent_scanning.py
+│ 
 ├── conn_banner/
 │   ├── __init__.py
 │   ├── regular_banner_scraping.py
