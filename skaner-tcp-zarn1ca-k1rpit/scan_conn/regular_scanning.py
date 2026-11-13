@@ -19,7 +19,7 @@ def execute_ports_scanning(*,ip: str,ports: dict[int,str],time_max: int,timeout:
     for port,servis in ports.items():
         s: socket.socket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
         s.settimeout(timeout)
-        time.sleep(random.randint(0,time_max))
+        time.sleep(random.uniform(0,time_max))
         
         
         connect_attempt=s.connect_ex((ip,int(port)))
